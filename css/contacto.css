@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*HEADER*/
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.menu{
+    flex-grow: 0;
+}
+
+.menu-nav{
+    gap: 50px;
+    font-family: "Alice";
+    font-style: none;
+}
+
+.titulo-link{
+    color: black;
+    font-size: 1.3rem;
+}
+
+/*MAIN*/
+
+.cont-principal{
+    width: 100vw;
+    height: 850px;
+    background: url(../img/imagen\ principal.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-principal_texto{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+/* Contacto */
+
+.titulo-contacto{
+    font-size: 3rem;
+    font-family: 'Alice';
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 150px;
+}
+
+.contacto-formulario{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 60px 60px 60px;
+    gap: 20px;
+}
+
+.contacto-formulario_nombre{
+    width: 658px;
+    height: 66px;
+    font-family: 'Alice';
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 5px;
+}
+
+.contacto-formulario_apellido{
+    width: 658px;
+    height: 66px;
+    font-family: 'Alice';
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 5px;
+}
+
+.contacto-formulario_email{
+    width: 658px;
+    height: 66px;
+    font-family: 'Alice';
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 5px;
+}
+
+.contacto-formulario_telefono{
+    width: 658px;
+    height: 66px;
+    font-family: 'Alice';
+    grid-column: 2;
+    grid-row: 4;
+    border-radius: 5px;
+}
+
+.contacto-formulario_mensaje{
+    width: 672px;
+    height: 306px;
+    font-family: 'Alice';
+    grid-column: 3;
+    border-radius: 5px;
+}
+
+.contacto-formulario_cont-boton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.contacto-formulario_boton-enviar{
+    margin-top: 50px;
+    align-items: center;
+    width: 70px;
+    height: 25px;
+}
+
+/*FOOTER*/
+
+.cont-footer{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #eb9782;
+}
+.cont-footer_barra-nav{
+    font-size: 1.5rem;
+    font-family: 'Alice';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12.5px;
+}
+
+.cont-footer_sucursal-direccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12.5px;
+}
+
+.cont-footer_sucursal{
+    font-size: 1.5rem;
+    font-family: 'Alice';
+}
+
+.cont-footer_direccion{
+    font-family: "Alice";
+    font-size: 1.2rem;
+}
+
+.cont-footer_contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12.5px;
+}
+
+.cont-footer_titulo-contacto{
+    font-size: 1.438rem;
+    font-family: 'Alice';
+}
+
+.cont-footer_whatsapp-mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.cont-footer_whatsapp{
+    font-size: 1.2rem;
+    font-family: 'Alice';
+}
+
+.cont-footer_mail{
+    font-size: 1.2rem;
+    font-family: 'Alice';
+}
+
+.cont-footer_redes-sociales{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 12.5px;
+}
+
+.logo-instagram-footer{
+    width: 39px;    
+    height: 39px;
+}
+
+.logo-facebook-footer{
+    width: 39px;    
+    height: 39px;
+}
+
+
+/*Media Queries -Mobile-*/
+
+@media (max-width: 768px){
+
+    /*HEADER*/
+    .header-nav-bar{
+    height: 5rem;
+    width: 768px;
+    }
+
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+
+    .hambur-boton{
+        background-color: #eb9782;
+    }
+    
+    .menu{
+        flex-grow: 0;
+    }
+    
+    .menu-nav{
+        gap: 2px;
+        font-family: "Alice";
+        font-style: none;
+    }
+    
+    .titulo-link{
+        color: black;
+        font-size: 1rem;
+    }
+
+    /*MAIN*/
+
+    .prop-main{
+        background-color: rgb(241, 241, 241);
+        width: 768px;
+    }
+
+    .cont-principal{
+        width: 768px;
+        height: 850px;
+        background: url(/img/imagen\ principal.png);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cont-principal_texto{
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    h1{
+        font-size: 3rem;
+        font-style: italic;
+    }
+
+    /* Contacto */
+
+.titulo-contacto{
+    font-size: 3rem;
+    font-family: 'Alice';
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 150px;
+}
+
+.contacto-formulario{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contacto-formulario_nombre{
+    width: 600px;
+    height: 66px;
+    font-family: 'Alice';
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 5px;
+}
+
+.contacto-formulario_apellido{
+    width: 600px;
+    height: 66px;
+    font-family: 'Alice';
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 5px;
+}
+
+.contacto-formulario_email{
+    width: 600px;
+    height: 66px;
+    font-family: 'Alice';
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 5px;
+}
+
+.contacto-formulario_telefono{
+    width: 600px;
+    height: 66px;
+    font-family: 'Alice';
+    grid-column: 2;
+    grid-row: 4;
+    border-radius: 5px;
+}
+
+.contacto-formulario_mensaje{
+    width: 600px;
+    height: 306px;
+    font-family: 'Alice';
+    grid-column: 3;
+    border-radius: 5px;
+}
+
+.contacto-formulario_cont-boton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.contacto-formulario_boton-enviar{
+    margin-top: 50px;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #eb9782;
+    font-size: 1.2rem;
+}
+
+
+    /*FOOTER*/
+
+    .cont-footer{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #eb9782;
+        gap: 20px;
+    }
+
+    .cont-footer_barra-nav{
+        display: none;
+    }
+
+    .cont-footer_sucursal-direccion{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12.5px;
+    }
+
+    .cont-footer_sucursal{
+        font-size: 1.5rem;
+        font-family: 'Alice';
+        font-weight: 1000;
+    }
+
+    .cont-footer_direccion{
+        font-family: "Alice";
+        font-size: 1.2rem;
+    }
+
+    .cont-footer_contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12.5px;
+    }
+
+    .cont-footer_titulo-contacto{
+        font-size: 1.438rem;
+        font-family: 'Alice';
+        font-weight: 1000;
+    }
+
+    .cont-footer_whatsapp-mail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .cont-footer_whatsapp{
+        font-size: 1.2rem;
+        font-family: 'Alice';
+    }
+
+    .cont-footer_mail{
+        font-size: 1.2rem;
+        font-family: 'Alice';
+    }
+
+    .cont-footer_redes-sociales{
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 12.5px;
+    }
+
+    .logo-instagram-footer{
+        width: 39px;    
+        height: 39px;
+    }
+
+    .logo-facebook-footer{
+        width: 39px;    
+        height: 39px;
+    }
+
+
+}
