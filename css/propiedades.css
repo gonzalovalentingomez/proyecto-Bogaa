@@ -259,7 +259,7 @@ a{
     .cont-principal{
         width: 768px;
         height: 850px;
-        background: url(/img/imagen\ principal.png);
+        background: url(../img/imagen\ principal.png);
         background-size: cover;
         background-position: center;
         display: flex;
