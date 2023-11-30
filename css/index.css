@@ -6,6 +6,7 @@
 ul,
 ol{
     list-style: none;
+    padding: 0px;
 }
 
 a{
@@ -35,6 +36,12 @@ a{
     font-size: 1rem;
 }
 
+.navbar{
+    padding: 0px;
+    height: 4.5rem;
+    width: 100%;
+}
+
 /*MAIN*/
 
 .prop-main{
@@ -42,7 +49,7 @@ a{
 }
 
 .cont-principal{
-    width: 100vw;
+    width: 100%;
     height: 650px;
     background: url(../img/imagen\ principal.png);
     background-size: cover;
@@ -63,7 +70,7 @@ a{
 /*RECIENTES-INICIO*/
 
 .titulo-recientes{
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
@@ -72,15 +79,17 @@ a{
 }
 
 .propiedades-recientes{
-    width: 100vw;
-    height: 600px;
+    width: 100%;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 70px;
 }
 
 .propiedades-recientes_casa{
+    width: 300px;
+    height: 360px;
     border: 1.5px;
     border-style: solid;
     border-radius: 10px;
@@ -89,6 +98,8 @@ a{
 }
 
 .propiedades-recientes_dpto{
+    width: 300px;
+    height: 360px;
     border: 1.5px;
     border-style: solid;
     border-radius: 12px;
@@ -97,6 +108,8 @@ a{
 }
 
 .propiedades-recientes_quinta{
+    width: 300px;
+    height: 360px;
     border: 1.5px;
     border-style: solid;
     border-radius: 12px;
@@ -105,12 +118,13 @@ a{
 }
 
 .propiedades-recientes_prop-inicio{
-    width: 350px;
-    height: 300px;
+    width: 298px;
+    height: 200px;
     border-radius: 10px;
 }
 
 .propiedades-recientes_caract-recientes{
+    width: 100%;
     font-size: 1rem;
     font-family: 'Alice';
     display: flex;
@@ -158,12 +172,17 @@ a{
     height: 500px;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 120px;
+    margin-top: 90px;
+}
+
+.seccion-nosotros_cont-imagen{
+    display: flex;
+    align-items: center;
 }
 
 .seccion-nosotros_imagen{
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 350px;
     border-radius: 15px;
 }
 
@@ -195,7 +214,7 @@ a{
 /*FOOTER*/
 
 .cont-footer{
-    width: 100vw;
+    width: 100%;
     height: 200px;
     display: flex;
     justify-content: space-around;

@@ -16,8 +16,8 @@ a{
 /*HEADER*/
 
 .logo{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 .menu{
@@ -25,21 +25,27 @@ a{
 }
 
 .menu-nav{
-    gap: 50px;
+    gap: 40px;
     font-family: "Alice";
     font-style: none;
 }
 
 .titulo-link{
     color: black;
-    font-size: 1.3rem;
+    font-size: 1rem;
+}
+
+.navbar{
+    padding: 0px;
+    height: 4.5rem;
+    width: 100%;
 }
 
 /*MAIN*/
 
 .cont-principal{
-    width: 100vw;
-    height: 850px;
+    width: 100%;
+    height: 650px;
     background: url(../img/imagen\ principal.png);
     background-size: cover;
     background-position: center;
@@ -99,7 +105,7 @@ a{
 /*FOOTER*/
 
 .cont-footer{
-    width: 100vw;
+    width: 100%;
     height: 200px;
     display: flex;
     justify-content: space-around;
