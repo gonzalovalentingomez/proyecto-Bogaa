@@ -247,6 +247,7 @@ a{
     /*Servicios*/
 
     .servicios_titulo{
+        width: 768px;
         padding-top: 5rem;
         padding-bottom: 3.5rem;
         font-size: 3rem;
@@ -257,7 +258,7 @@ a{
     }
 
     .servicios{
-        width: 100vw;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
