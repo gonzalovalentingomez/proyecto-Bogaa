@@ -283,9 +283,10 @@ a{
     /*NOSOTROS*/
 
     .seccion-nosotros{
-        width: 100vw;
+        width: 768px;
         height: auto;
         display: flex;
+        align-items: center;
         justify-content: center;
         flex-direction: column;
         gap: 50px;
@@ -301,6 +302,7 @@ a{
     .seccion-nosotros_cont-informacion{
         display: flex;
         flex-direction: column;
+        text-align: center;
         width: 500px;
         gap: 20px;
         padding-bottom: 50px;
@@ -327,7 +329,7 @@ a{
     /*FOOTER*/
 
     .cont-footer{
-        width: 100vw;
+        width: 768px;
         height: auto;
         display: flex;
         flex-direction: column;
