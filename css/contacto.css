@@ -226,10 +226,18 @@ a{
 
 @media (max-width: 768px){
 
-    /*HEADER*/
-    .header-nav-bar{
-    height: 5rem;
+/*HEADER*/
+
+.header-nav-bar{
     width: 768px;
+    }
+
+    .navbar{
+        padding: 0px;
+    }
+
+    .container-fluid{
+        padding: 0;
     }
 
     .logo{
@@ -250,6 +258,8 @@ a{
         font-family: "Alice";
         font-style: none;
         text-align: center;
+        background-color: white;
+        width: 768px;
     }
     
     .titulo-link{

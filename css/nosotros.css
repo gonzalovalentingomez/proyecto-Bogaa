@@ -228,10 +228,18 @@ a{
 
 @media (max-width: 768px){
 
-    /*HEADER*/
-    .header-nav-bar{
-    height: 5rem;
+/*HEADER*/
+
+.header-nav-bar{
     width: 768px;
+    }
+
+    .navbar{
+        padding: 0px;
+    }
+
+    .container-fluid{
+        padding: 0;
     }
 
     .logo{
@@ -252,6 +260,8 @@ a{
         font-family: "Alice";
         font-style: none;
         text-align: center;
+        background-color: white;
+        width: 768px;
     }
     
     .titulo-link{
@@ -259,7 +269,7 @@ a{
         font-size: 1rem;
     }
 
-    /*MAIN*/
+    /*MAIN*/ 
 
     .prop-main{
         background-color: rgb(241, 241, 241);
@@ -290,19 +300,12 @@ a{
     /*NOSOTROS*/
 
     .seccion-nosotros{
-<<<<<<< HEAD
         width: 768px;
         height: auto;
         display: flex;
-        align-items: center;
-        justify-content: center;
-=======
-        width: 100%;
-        height: auto;
-        display: flex;
->>>>>>> f52fc534dffa37fa1bfc5aae818e2b48df5f7648
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         gap: 50px;
         padding-top: 50px;
     }
@@ -426,6 +429,5 @@ a{
         width: 39px;    
         height: 39px;
     }
-
 
 }

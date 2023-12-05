@@ -192,10 +192,18 @@ a{
 
 @media (max-width: 768px){
 
-    /*HEADER*/
-    .header-nav-bar{
-    height: 5rem;
+/*HEADER*/
+
+.header-nav-bar{
     width: 768px;
+    }
+
+    .navbar{
+        padding: 0px;
+    }
+
+    .container-fluid{
+        padding: 0;
     }
 
     .logo{
@@ -216,6 +224,8 @@ a{
         font-family: "Alice";
         font-style: none;
         text-align: center;
+        background-color: white;
+        width: 768px;
     }
     
     .titulo-link{
@@ -264,11 +274,7 @@ a{
     }
 
     .servicios{
-<<<<<<< HEAD
         width: 768px;
-=======
-        width: 100%;
->>>>>>> f52fc534dffa37fa1bfc5aae818e2b48df5f7648
         display: flex;
         align-items: center;
         justify-content: center;
