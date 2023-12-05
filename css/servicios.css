@@ -209,6 +209,7 @@ a{
         gap: 2px;
         font-family: "Alice";
         font-style: none;
+        text-align: center;
     }
     
     .titulo-link{
