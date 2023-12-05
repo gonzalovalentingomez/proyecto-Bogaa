@@ -396,6 +396,7 @@ a{
         border-radius: 12px;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
     }
 
     .propiedades-recientes_dpto{
@@ -404,6 +405,7 @@ a{
         border-radius: 12px;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
     }
 
     .propiedades-recientes_quinta{
@@ -412,10 +414,11 @@ a{
         border-radius: 12px;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
     }
 
     .propiedades-recientes_prop-inicio{
-        width: 300px;
+        width: 298px;
         height: 150px;
         border-radius: 10px;
     }
@@ -423,7 +426,6 @@ a{
     .propiedades-recientes_caract-recientes{
         font-size: 1rem;
         font-family: 'Alice';
-        margin-right: 25px;
         display: flex;
         flex-direction: column;
         align-items: center;
