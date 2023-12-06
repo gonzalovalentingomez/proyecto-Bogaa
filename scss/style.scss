@@ -1,5 +1,12 @@
+/*Base-Reset*/
 @import "base/reset";
-@import "layout/header";
 @import "base/color-main";
+
+
+/*Layout*/
+@import "layout/header";
 @import "layout/banner-principal";
-@import "index/prop-recientes";
+
+
+/*Index*/
+@import "index/_prop-recientes";
