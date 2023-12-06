@@ -1,3 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+ul,
+ol {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav {
+  padding: 0;
+  height: 4.5rem;
+  width: 100%;
+}
+header nav .menu {
+  flex-grow: 0;
+}
+header nav div a img {
+  width: 60px;
+  height: 60px;
+}
+header nav div div {
+  font-family: "Alice";
+}
+header nav div div .menu-nav {
+  font-style: none;
+}
+header nav div div ul {
+  gap: 40px;
+  color: black;
+}
+header nav div div ul li .titulo-link {
+  color: black;
+  font-size: 1.2rem;
+}
+
+main {
+  background-color: rgb(241, 241, 241);
+}
+
+.cont-principal {
+  width: 100%;
+  height: 650px;
+  background: url(../img/imagen\ principal.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cont-principal_texto {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: "Alice";
+  margin-top: 100px;
+}
 
 /*# sourceMappingURL=style.css.map */
