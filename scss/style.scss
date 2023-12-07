@@ -6,7 +6,13 @@
 /*Layout*/
 @import "layout/header";
 @import "layout/banner-principal";
+@import "layout/footer";
 
 
 /*Index*/
-@import "index/_prop-recientes";
+@import "index/prop-recientes";
+@import "index/hr";
+@import "index/nosotros";
+
+/*Servicios*/
+@import "servicios/serv"

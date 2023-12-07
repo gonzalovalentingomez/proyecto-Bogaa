@@ -88,7 +88,7 @@ a{
     gap: 70px;
 }
 
-.propiedades-recientes_casa{
+.propiedades-recientes_props{
     width: 300px;
     height: 360px;
     border: 1.5px;
@@ -98,27 +98,7 @@ a{
     flex-direction: column;
 }
 
-.propiedades-recientes_dpto{
-    width: 300px;
-    height: 360px;
-    border: 1.5px;
-    border-style: solid;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-}
-
-.propiedades-recientes_quinta{
-    width: 300px;
-    height: 360px;
-    border: 1.5px;
-    border-style: solid;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-} */
-
-.propiedades-recientes_prop-inicio{
+.propiedades-recientes_prop-img{
     width: 298px;
     height: 200px;
     border-radius: 10px;
@@ -152,23 +132,22 @@ a{
 .propiedades-recientes_icono-garage{
     width: 28px;
     height: 28px;
-}
+} */
 
 /*DIVISION*/
 
-.division-inicio{
+/* .division-inicio{
     height: 0.75px;
     background-color: black;
     border-color: black;
     border-radius: 10px;
     margin-left: 150px;
     margin-right: 150px;
-}
+} */
 
 /*NOSOTROS-INICIO*/
 
-
-.seccion-nosotros{
+/* .seccion-nosotros{
     width: 100vw;
     height: 500px;
     display: flex;
@@ -210,11 +189,11 @@ a{
     width: 80px;
     height: 30px;
     background-color: #eb9782;
-}
+} */
 
 /*FOOTER*/
 
-.cont-footer{
+/* .cont-footer{
     width: 100%;
     height: 200px;
     display: flex;
@@ -294,7 +273,7 @@ a{
 .logo-facebook-footer{
     width: 39px;    
     height: 39px;
-}
+} */
 
 
 
@@ -595,7 +574,7 @@ a{
 
 /*Servicios*/
 
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -608,11 +587,11 @@ ol{
 a{
     text-decoration: none;
     color: black;
-}
+} */
 
 /*HEADER*/
 
-.logo{
+/* .logo{
     width: 60px;
     height: 60px;
 }
@@ -636,11 +615,11 @@ a{
     padding: 0px;
     height: 4.5rem;
     width: 100%;
-}
+} */
 
 /*MAIN*/
 
-.cont-principal{
+/* .cont-principal{
     width: 100%;
     height: 650px;
     background: url(../img/imagen\ principal.png);
@@ -656,7 +635,7 @@ a{
     margin-top: 100px;
     font-size: 26px;
     font-style: italic;
-}
+} */
 
 /*Servicios*/
 

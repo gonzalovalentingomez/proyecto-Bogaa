@@ -1,0 +1,71 @@
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #eb9782;
+    .cont-footer_barra-nav{
+        font-size: 1.5rem;
+        font-family: 'Alice';
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12.5px;
+    }
+    .cont-footer_sucursal-direccion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12.5px;
+        .cont-footer_sucursal{
+            font-size: 1.5rem;
+            font-family: 'Alice';
+        }
+        .cont-footer_direccion{
+            font-family: "Alice";
+            font-size: 1.2rem;
+        }
+    }
+    .cont-footer_contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12.5px;
+        .cont-footer_titulo-contacto{
+            font-size: 1.438rem;
+            font-family: 'Alice';
+        }
+        .cont-footer_whatsapp-mail{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            .cont-footer_whatsapp{
+                font-size: 1.2rem;
+                font-family: 'Alice';
+            }
+            .cont-footer_mail{
+                font-size: 1.2rem;
+                font-family: 'Alice';
+            }
+        }
+    }
+    .cont-footer_redes-sociales{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 12.5px;
+        .logo-instagram-footer{
+            width: 39px;    
+            height: 39px;
+        }
+        .logo-facebook-footer{
+            width: 39px;    
+            height: 39px;
+        }
+    }
+}
+
+

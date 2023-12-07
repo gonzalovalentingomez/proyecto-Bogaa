@@ -1,0 +1,37 @@
+section{
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    .seccion-nosotros_cont-imagen{
+        display: flex;
+        align-items: center;
+        .seccion-nosotros_imagen{
+            width: 450px;
+            height: 350px;
+            border-radius: 15px;
+        }
+    }
+    .seccion-nosotros_titulo-boton{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        .seccion-nostros_titulo{
+            font-size: 1.4rem;
+            font-family: 'Alice';
+        }
+        .seccion-nosotros_boton{
+            display: flex;
+            justify-content: center;
+            .seccion-nosotros_boton-sumate{
+                border-radius: 3px;
+                font-family: 'Alice';
+                width: 80px;
+                height: 30px;
+                background-color: #eb9782;
+            }
+        }
+    }
+}
