@@ -20,4 +20,28 @@
 
 
 /*Propiedades*/
-@import "propiedades/props"
+@import "propiedades/props";
+
+/*Contacto*/
+@import "contacto/contacto";
+
+/*Nosotros*/
+@import "nosotros/nosotros";
+@import "nosotros/equipo";
+
+
+/*Media Querie -Mobile-*/
+
+/*Base*/
+@import "./mq-mobile/mq-base/mq-color-main";
+
+/*Layout*/
+@import "./mq-mobile/mq-layout/mq-header";
+@import "./mq-mobile/mq-layout/mq-footer";
+@import "./mq-mobile/mq-layout/mq-banner-principal";
+
+/*Index*/
+@import "./mq-mobile/mq-index/mq-hr";
+@import "./mq-mobile/mq-index/mq-nosotros";
+@import "./mq-mobile/mq-index/mq-prop-recientes";
+

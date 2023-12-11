@@ -1,0 +1,31 @@
+.seccion-nosotros{
+    display: flex;
+    width: 100vw;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    .seccion-nosotros_cont-imagen{
+        .seccion-nosotros_imagen{
+            width: 490px;
+            height: 490px;
+            border-radius: 54px;
+        }
+    }
+    .seccion-nosotros_cont-informacion{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        gap: 35px;
+        .seccion-nosotros_titulo{
+            font-size: 1.875rem;
+            font-family: 'Alice';
+            text-decoration: underline;
+            text-align: center;
+        }
+        .seccion-nosotros_parrafo{
+            font-size: 1.625rem;
+            font-family: 'Alice';
+        }
+    }
+}

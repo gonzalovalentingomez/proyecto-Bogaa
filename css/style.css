@@ -385,4 +385,383 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   height: 36px;
 }
 
+/*Contacto*/
+.titulo-contacto {
+  font-size: 3rem;
+  font-family: "Alice";
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 150px;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+}
+.contacto .contacto-formulario {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 60px 60px 60px 60px;
+  gap: 20px;
+}
+.contacto .contacto-formulario_nombre {
+  width: 658px;
+  height: 66px;
+  font-family: "Alice";
+  grid-column: 2;
+  grid-row: 1;
+  border-radius: 5px;
+}
+.contacto .contacto-formulario_apellido {
+  width: 658px;
+  height: 66px;
+  font-family: "Alice";
+  grid-column: 2;
+  grid-row: 2;
+  border-radius: 5px;
+}
+.contacto .contacto-formulario_email {
+  width: 658px;
+  height: 66px;
+  font-family: "Alice";
+  grid-column: 2;
+  grid-row: 3;
+  border-radius: 5px;
+}
+.contacto .contacto-formulario_telefono {
+  width: 658px;
+  height: 66px;
+  font-family: "Alice";
+  grid-column: 2;
+  grid-row: 4;
+  border-radius: 5px;
+}
+.contacto .contacto-formulario_mensaje {
+  width: 672px;
+  height: 306px;
+  font-family: "Alice";
+  grid-column: 3;
+  border-radius: 5px;
+}
+.contacto .contacto-formulario_cont-boton {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.contacto .contacto-formulario_cont-boton .contacto-formulario_boton-enviar {
+  margin-top: 50px;
+  align-items: center;
+  width: 70px;
+  height: 25px;
+}
+
+/*Nosotros*/
+.seccion-nosotros {
+  display: flex;
+  width: 100vw;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.seccion-nosotros .seccion-nosotros_cont-imagen .seccion-nosotros_imagen {
+  width: 490px;
+  height: 490px;
+  border-radius: 54px;
+}
+.seccion-nosotros .seccion-nosotros_cont-informacion {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap: 35px;
+}
+.seccion-nosotros .seccion-nosotros_cont-informacion .seccion-nosotros_titulo {
+  font-size: 1.875rem;
+  font-family: "Alice";
+  text-decoration: underline;
+  text-align: center;
+}
+.seccion-nosotros .seccion-nosotros_cont-informacion .seccion-nosotros_parrafo {
+  font-size: 1.625rem;
+  font-family: "Alice";
+}
+
+.seccion-equipo {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+.seccion-equipo .seccion-equipo_titulo {
+  font-size: 2rem;
+  font-family: "Alice";
+  text-decoration: underline;
+  text-align: center;
+  text-transform: uppercase;
+}
+.seccion-equipo .seccion-equipo_cont-imagenes {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+.seccion-equipo .seccion-equipo_cont-fundador .seccion-equipo_fundador {
+  font-size: 1.125rem;
+  font-family: "Alice";
+  text-decoration: underline;
+}
+.seccion-equipo .seccion-equipo_cont-corredor .seccion-equipo_corredor {
+  font-size: 1.125rem;
+  font-family: "Alice";
+  text-decoration: underline;
+}
+.seccion-equipo .seccion-equipo_cont-fotografa .seccion-equipo_fotografa {
+  font-size: 1.125rem;
+  font-family: "Alice";
+  text-decoration: underline;
+}
+/*Media Querie -Mobile-*/
+/*Base*/
+@media (max-width: 768px) {
+  main {
+    background-color: rgb(241, 241, 241);
+    width: 768px;
+  }
+}
+/*Layout*/
+@media (max-width: 768px) {
+  header {
+    width: 768px;
+  }
+  header nav {
+    padding: 0;
+    height: 4rem;
+    width: 100%;
+  }
+  header nav .menu {
+    flex-grow: 0;
+  }
+  header nav .container-fluid {
+    padding: 0;
+  }
+  header nav .container-fluid a img {
+    width: 55px;
+    height: 50px;
+  }
+  header nav .container-fluid .hambur-boton {
+    background-color: #eb9782;
+  }
+  header nav .container-fluid .menu {
+    font-family: "Alice";
+  }
+  header nav .container-fluid .menu .menu-nav {
+    gap: 2px;
+    font-family: "Alice";
+    font-style: none;
+    text-align: center;
+    background-color: white;
+    width: 768px;
+  }
+  header nav .container-fluid .menu .menu-nav li .titulo-link {
+    color: black;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    width: 768px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #eb9782;
+    gap: 20px;
+  }
+  footer .cont-footer_barra-nav {
+    display: none;
+  }
+  footer .cont-footer_sucursal-direccion {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12.5px;
+  }
+  footer .cont-footer_sucursal-direccion .cont-footer_sucursal {
+    font-size: 1.5rem;
+    font-family: "Alice";
+    font-weight: 1000;
+  }
+  footer .cont-footer_sucursal-direccion .cont-footer_direccion {
+    font-family: "Alice";
+    font-size: 1.2rem;
+  }
+  footer .cont-footer_contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12.5px;
+  }
+  footer .cont-footer_contacto .cont-footer_titulo-contacto {
+    font-size: 1.438rem;
+    font-family: "Alice";
+    font-weight: 1000;
+  }
+  footer .cont-footer_contacto .cont-footer_whatsapp-mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  footer .cont-footer_contacto .cont-footer_whatsapp-mail .cont-footer_whatsapp {
+    font-size: 1.2rem;
+    font-family: "Alice";
+  }
+  footer .cont-footer_contacto .cont-footer_whatsapp-mail .cont-footer_mail {
+    font-size: 1.2rem;
+    font-family: "Alice";
+  }
+  footer .cont-footer_redes-sociales {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12.5px;
+  }
+  footer .cont-footer_redes-sociales .logo-instagram-footer {
+    width: 39px;
+    height: 39px;
+  }
+  footer .cont-footer_redes-sociales .logo-facebook-footer {
+    width: 39px;
+    height: 39px;
+  }
+}
+@media (max-width: 768px) {
+  .cont-principal {
+    width: 100%;
+    height: 850px;
+    background: url(../img/imagen\ principal.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+  }
+  .cont-principal .cont-principal_texto {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+  }
+}
+/*Index*/
+@media (max-width: 768px) {
+  hr {
+    height: 0.75px;
+    background-color: black;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .seccion-nosotros {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-imagen {
+    display: flex;
+    align-items: center;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-imagen .seccion-nosotros_imagen {
+    display: none;
+  }
+  .seccion-nosotros .seccion-nosotros_titulo-boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nostros_titulo {
+    font-size: 2.1rem;
+    font-family: "Alice";
+  }
+  .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton {
+    display: flex;
+    justify-content: center;
+  }
+  .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton .seccion-nosotros_boton-sumate {
+    border-radius: 15px;
+    font-family: "Alice";
+    width: 100px;
+    height: 40px;
+    background-color: #eb9782;
+  }
+}
+@media (max-width: 768px) {
+  .titulo-recientes {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Alice";
+    margin-top: 50px;
+  }
+  .propiedades-recientes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .propiedades-recientes .propiedades-recientes_props {
+    border: 1.5px;
+    border-style: solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_prop-img {
+    width: 298px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_caract-recientes {
+    font-size: 1rem;
+    font-family: "Alice";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes .propiedades-recientes_icono-habitacion {
+    width: 26px;
+    height: 26px;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes .propiedades-recientes_icono-baño {
+    width: 24px;
+    height: 24px;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes .propiedades-recientes_icono-garage {
+    width: 22px;
+    height: 22px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

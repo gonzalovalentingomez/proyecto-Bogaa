@@ -1,0 +1,42 @@
+@media (max-width: 768px){
+    header{
+        width: 768px;
+        nav{
+            padding: 0;
+            height: 4rem;
+            width: 100%;
+            .menu{
+                flex-grow: 0;
+            }
+            .container-fluid{
+                padding: 0;
+                a{
+                    img{
+                        width: 55px;
+                        height: 50px;
+                    }
+                }
+                .hambur-boton{
+                    background-color: #eb9782;
+                }
+                .menu{
+                    font-family: "Alice";
+                    .menu-nav{
+                        gap: 2px;
+                        font-family: "Alice";
+                        font-style: none;
+                        text-align: center;
+                        background-color: white;
+                        width: 768px; 
+                        li{
+                            .titulo-link{
+                                color: black;
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

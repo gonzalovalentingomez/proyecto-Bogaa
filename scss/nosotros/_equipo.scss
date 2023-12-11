@@ -1,0 +1,43 @@
+.seccion-equipo{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    .seccion-equipo_titulo{
+        font-size: 2rem;
+        font-family: 'Alice';
+        text-decoration: underline;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .seccion-equipo_cont-imagenes{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+    }
+        .seccion-equipo_cont-fundador{
+            .seccion-equipo_fundador{
+                font-size: 1.125rem;
+                font-family: 'Alice';
+                text-decoration: underline;
+            }
+            .seccion-equipo_imagen{}
+            .seccion-equipo_nombre-fundador{}
+        }
+        .seccion-equipo_cont-corredor{
+            .seccion-equipo_corredor{
+                font-size: 1.125rem;
+                font-family: 'Alice';
+                text-decoration: underline;
+            }
+            .seccion-equipo_imagen{}
+            .seccion-equipo_nombre-corredor{}
+        }
+        .seccion-equipo_cont-fotografa{
+            .seccion-equipo_fotografa{    font-size: 1.125rem;
+                font-family: 'Alice';
+                text-decoration: underline;}
+            .seccion-equipo_imagen{}
+            .seccion-equipo_nombre-fotografa{}
+        }
+}
