@@ -30,6 +30,34 @@
 @import "nosotros/equipo";
 
 
+/*Media Queries -Tablet-*/
+
+/*Base*/
+@import "./mq-tablet/tb-base/tb-color-main";
+
+/*Layout*/
+@import "./mq-tablet/tb-layout/tb-header";
+@import "./mq-tablet/tb-layout/tb-banner-principal";
+@import "./mq-tablet/tb-layout/tb-footer";
+
+/*Index*/
+@import "./mq-tablet/tb-index/tb-props-recientes";
+@import "./mq-tablet/tb-index/tb-hr";
+@import "./mq-tablet/tb-index/tb-nosotros";
+
+/*Servicios*/
+@import "./mq-tablet/tb-servicios/tb-servicios";
+
+/*Propiedades*/
+@import "./mq-tablet/tb-propiedades/tb-props";
+
+/*Contacto*/
+@import "./mq-tablet/tb-contacto/tb-contacto";
+
+/*Nosotros*/
+@import "./mq-tablet/tb-nosotros/tb-nosotros";
+
+
 /*Media Querie -Mobile-*/
 
 /*Base*/
@@ -44,4 +72,18 @@
 @import "./mq-mobile/mq-index/mq-hr";
 @import "./mq-mobile/mq-index/mq-nosotros";
 @import "./mq-mobile/mq-index/mq-prop-recientes";
+
+/*Servicios*/
+@import "./mq-mobile/mq-servicios/mq-servicios";
+
+/*Propiedades*/
+@import "./mq-mobile/mq-propiedades/mq-props";
+
+/*Contacto*/
+@import "./mq-mobile/mq-contacto/mq-contacto";
+
+/*Nosotros*/
+@import "./mq-mobile/mq-nosotros/mq-nosotros";
+
+
 

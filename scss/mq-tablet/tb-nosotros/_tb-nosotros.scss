@@ -1,0 +1,42 @@
+@media (max-width: 1024px){
+    .seccion-nosotros{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding-top: 50px;
+        .seccion-nosotros_cont-imagen{
+            .seccion-nosotros_imagen{
+                width: 350px;
+                height: 350px;
+                border-radius: 25px;
+            }
+        }
+        .seccion-nosotros_cont-informacion{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 500px;
+            gap: 20px;
+            padding-bottom: 50px;
+            .seccion-nosotros_titulo{
+                font-size: 2.5rem;
+                font-family: 'Alice';
+                text-decoration: underline;
+                text-align: center;
+            }
+            .seccion-nosotros_parrafo{
+                font-size: 1.3rem;
+                font-family: 'Alice';
+                text-align: center;
+            }
+        }
+    }
+    .seccion-equipo{
+        display: none;
+    }
+}
+

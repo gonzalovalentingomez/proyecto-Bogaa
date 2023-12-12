@@ -1,0 +1,77 @@
+@media (max-width: 768px){
+    .titulo-contacto{
+        font-size: 3rem;
+        font-family: 'Alice';
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 150px;
+    }
+    
+    .contacto{
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .contacto-formulario{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+            .contacto-formulario_nombre{
+                width: 600px;
+                height: 66px;
+                font-family: 'Alice';
+                grid-column: 2;
+                grid-row: 1;
+                border-radius: 5px;
+            }
+            .contacto-formulario_apellido{
+                width: 600px;
+                height: 66px;
+                font-family: 'Alice';
+                grid-column: 2;
+                grid-row: 2;
+                border-radius: 5px;
+            }
+            .contacto-formulario_email{
+                width: 600px;
+                height: 66px;
+                font-family: 'Alice';
+                grid-column: 2;
+                grid-row: 3;
+                border-radius: 5px;
+            }
+            .contacto-formulario_telefono{
+                width: 600px;
+                height: 66px;
+                font-family: 'Alice';
+                grid-column: 2;
+                grid-row: 4;
+                border-radius: 5px;
+            }
+            .contacto-formulario_mensaje{
+                width: 600px;
+                height: 306px;
+                font-family: 'Alice';
+                grid-column: 3;
+                border-radius: 5px;
+            }
+        .contacto-formulario_cont-boton{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 100px;
+            .contacto-formulario_boton-enviar{
+                margin-top: 50px;
+                align-items: center;
+                width: 100px;
+                height: 50px;
+                border-radius: 10px;
+                background-color: #eb9782;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+@media (max-width: 1024px){
+    .servicios_titulo{
+        padding-top: 5rem;
+        padding-bottom: 3.5rem;
+        font-size: 3.2rem;
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-family: 'Alice';
+    }
+    
+    section{
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 100px;
+        .servicios_subtitulos-parrafos{
+            width: 720px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            .servicios_subtitulos{
+                font-size: 1.5rem;
+                text-align: center;
+                font-family: 'Alice';
+                font-weight: 500;
+            }
+            .servicios_parrafos{
+                font-size: 1.1rem;
+                text-align: center;
+                font-family: 'Alice';
+            }
+        }
+    }
+    
+}

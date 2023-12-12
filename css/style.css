@@ -52,7 +52,7 @@ header nav div div ul li .titulo-link {
 
 .cont-principal {
   width: 100%;
-  height: 650px;
+  height: 720px;
   background: url(../img/imagen\ principal.png);
   background-size: cover;
   background-position: center;
@@ -521,6 +521,506 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   font-family: "Alice";
   text-decoration: underline;
 }
+/*Media Queries -Tablet-*/
+/*Base*/
+@media (max-width: 1024px) {
+  main {
+    background-color: rgb(241, 241, 241);
+    width: 1024px;
+  }
+}
+/*Layout*/
+@media (max-width: 1024px) {
+  header {
+    width: 1024px;
+  }
+  header nav {
+    padding: 0;
+    height: 4rem;
+    width: 100%;
+  }
+  header nav .menu {
+    flex-grow: 0;
+  }
+  header nav .container-fluid {
+    padding: 0;
+    display: flex;
+  }
+  header nav .container-fluid a img {
+    width: 55px;
+    height: 50px;
+  }
+  header nav .container-fluid .hambur-boton {
+    background-color: #eb9782;
+  }
+  header nav .container-fluid .menu {
+    font-family: "Alice";
+  }
+  header nav .container-fluid .menu .menu-nav {
+    font-family: "Alice";
+    font-style: none;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 100%;
+  }
+  header nav .container-fluid .menu .menu-nav li .titulo-link {
+    color: black;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .cont-principal {
+    width: 100%;
+    height: 850px;
+    background: url(../img/imagen\ principal.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+  }
+  .cont-principal .cont-principal_texto {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+  }
+}
+@media (max-width: 1024px) {
+  footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #eb9782;
+    gap: 20px;
+  }
+  footer .cont-footer_barra-nav {
+    display: none;
+  }
+  footer .cont-footer_sucursal-direccion {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12.5px;
+  }
+  footer .cont-footer_sucursal-direccion .cont-footer_sucursal {
+    font-size: 1.5rem;
+    font-family: "Alice";
+    font-weight: 1000;
+  }
+  footer .cont-footer_sucursal-direccion .cont-footer_direccion {
+    font-family: "Alice";
+    font-size: 1.2rem;
+  }
+  footer .cont-footer_contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12.5px;
+  }
+  footer .cont-footer_contacto .cont-footer_titulo-contacto {
+    font-size: 1.438rem;
+    font-family: "Alice";
+    font-weight: 1000;
+  }
+  footer .cont-footer_contacto .cont-footer_whatsapp-mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  footer .cont-footer_contacto .cont-footer_whatsapp-mail .cont-footer_whatsapp {
+    font-size: 1.2rem;
+    font-family: "Alice";
+  }
+  footer .cont-footer_contacto .cont-footer_whatsapp-mail .cont-footer_mail {
+    font-size: 1.2rem;
+    font-family: "Alice";
+  }
+  footer .cont-footer_redes-sociales {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12.5px;
+  }
+  footer .cont-footer_redes-sociales .logo-instagram-footer {
+    width: 39px;
+    height: 39px;
+  }
+  footer .cont-footer_redes-sociales .logo-facebook-footer {
+    width: 39px;
+    height: 39px;
+  }
+}
+/*Index*/
+@media (max-width: 1024px) {
+  .titulo-recientes {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Alice";
+    margin-top: 50px;
+  }
+  .propiedades-recientes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  .propiedades-recientes .propiedades-recientes_props {
+    border: 1.5px;
+    border-style: solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_prop-img {
+    width: 298px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_caract-recientes {
+    font-size: 1rem;
+    font-family: "Alice";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes .propiedades-recientes_icono-habitacion {
+    width: 26px;
+    height: 26px;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes .propiedades-recientes_icono-baño {
+    width: 24px;
+    height: 24px;
+  }
+  .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes .propiedades-recientes_icono-garage {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media (max-width: 1024px) {
+  hr {
+    height: 0.75px;
+    background-color: black;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  .seccion-nosotros {
+    width: 1024px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-imagen {
+    display: flex;
+    align-items: center;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-imagen .seccion-nosotros_imagen {
+    display: none;
+  }
+  .seccion-nosotros .seccion-nosotros_titulo-boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nostros_titulo {
+    font-size: 2.1rem;
+    font-family: "Alice";
+  }
+  .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton {
+    display: flex;
+    justify-content: center;
+  }
+  .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton .seccion-nosotros_boton-sumate {
+    border-radius: 15px;
+    font-family: "Alice";
+    width: 100px;
+    height: 40px;
+    background-color: #eb9782;
+  }
+}
+/*Servicios*/
+@media (max-width: 1024px) {
+  .servicios_titulo {
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Alice";
+  }
+  section {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  section .servicios_subtitulos-parrafos {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  section .servicios_subtitulos-parrafos .servicios_subtitulos {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Alice";
+    font-weight: 500;
+  }
+  section .servicios_subtitulos-parrafos .servicios_parrafos {
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: "Alice";
+  }
+}
+/*Propiedades*/
+@media (max-width: 1024px) {
+  .titulo-propiedades {
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Alice";
+  }
+  .propiedades {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .propiedades .propiedades_cont1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props {
+    border: 1.5px;
+    border-style: solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_imagenes {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_caracteristicas {
+    font-size: 1rem;
+    font-family: "Alice";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-cama {
+    width: 26px;
+    height: 26px;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-baño {
+    width: 24px;
+    height: 24px;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-garage {
+    width: 22px;
+    height: 22px;
+  }
+  .propiedades .propiedades_cont2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props {
+    border: 1.5px;
+    border-style: solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_imagenes {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_caracteristicas {
+    font-size: 1rem;
+    font-family: "Alice";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-cama {
+    width: 26px;
+    height: 26px;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-baño {
+    width: 24px;
+    height: 24px;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-garage {
+    width: 22px;
+    height: 22px;
+  }
+}
+/*Contacto*/
+@media (max-width: 1024px) {
+  .titulo-contacto {
+    font-size: 3rem;
+    font-family: "Alice";
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 150px;
+  }
+  .contacto {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacto .contacto-formulario {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .contacto .contacto-formulario_nombre {
+    width: 600px;
+    height: 66px;
+    font-family: "Alice";
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 5px;
+  }
+  .contacto .contacto-formulario_apellido {
+    width: 600px;
+    height: 66px;
+    font-family: "Alice";
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 5px;
+  }
+  .contacto .contacto-formulario_email {
+    width: 600px;
+    height: 66px;
+    font-family: "Alice";
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 5px;
+  }
+  .contacto .contacto-formulario_telefono {
+    width: 600px;
+    height: 66px;
+    font-family: "Alice";
+    grid-column: 2;
+    grid-row: 4;
+    border-radius: 5px;
+  }
+  .contacto .contacto-formulario_mensaje {
+    width: 600px;
+    height: 306px;
+    font-family: "Alice";
+    grid-column: 3;
+    border-radius: 5px;
+  }
+  .contacto .contacto-formulario_cont-boton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  .contacto .contacto-formulario_cont-boton .contacto-formulario_boton-enviar {
+    margin-top: 50px;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #eb9782;
+    font-size: 1.2rem;
+  }
+}
+/*Nosotros*/
+@media (max-width: 1024px) {
+  .seccion-nosotros {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-imagen .seccion-nosotros_imagen {
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-informacion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-informacion .seccion-nosotros_titulo {
+    font-size: 2.5rem;
+    font-family: "Alice";
+    text-decoration: underline;
+    text-align: center;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-informacion .seccion-nosotros_parrafo {
+    font-size: 1.3rem;
+    font-family: "Alice";
+    text-align: center;
+  }
+  .seccion-equipo {
+    display: none;
+  }
+}
 /*Media Querie -Mobile-*/
 /*Base*/
 @media (max-width: 768px) {
@@ -672,7 +1172,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
 }
 @media (max-width: 768px) {
   .seccion-nosotros {
-    width: 100%;
+    width: 768px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -761,6 +1261,265 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes .propiedades-recientes_icono-garage {
     width: 22px;
     height: 22px;
+  }
+}
+/*Servicios*/
+@media (max-width: 768px) {
+  .servicios_titulo {
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Alice";
+  }
+  section {
+    width: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  section .servicios_subtitulos-parrafos {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  section .servicios_subtitulos-parrafos .servicios_subtitulos {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Alice";
+    font-weight: 500;
+  }
+  section .servicios_subtitulos-parrafos .servicios_parrafos {
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: "Alice";
+  }
+}
+/*Propiedades*/
+@media (max-width: 768px) {
+  .titulo-propiedades {
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Alice";
+  }
+  .propiedades {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .propiedades .propiedades_cont1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props {
+    border: 1.5px;
+    border-style: solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_imagenes {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_caracteristicas {
+    font-size: 1rem;
+    font-family: "Alice";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-cama {
+    width: 26px;
+    height: 26px;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-baño {
+    width: 24px;
+    height: 24px;
+  }
+  .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-garage {
+    width: 22px;
+    height: 22px;
+  }
+  .propiedades .propiedades_cont2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props {
+    border: 1.5px;
+    border-style: solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_imagenes {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_caracteristicas {
+    font-size: 1rem;
+    font-family: "Alice";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-cama {
+    width: 26px;
+    height: 26px;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-baño {
+    width: 24px;
+    height: 24px;
+  }
+  .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-garage {
+    width: 22px;
+    height: 22px;
+  }
+}
+/*Contacto*/
+@media (max-width: 768px) {
+  .titulo-contacto {
+    font-size: 3rem;
+    font-family: "Alice";
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 150px;
+  }
+  .contacto {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacto .contacto-formulario {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .contacto .contacto-formulario_nombre {
+    width: 600px;
+    height: 66px;
+    font-family: "Alice";
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 5px;
+  }
+  .contacto .contacto-formulario_apellido {
+    width: 600px;
+    height: 66px;
+    font-family: "Alice";
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 5px;
+  }
+  .contacto .contacto-formulario_email {
+    width: 600px;
+    height: 66px;
+    font-family: "Alice";
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 5px;
+  }
+  .contacto .contacto-formulario_telefono {
+    width: 600px;
+    height: 66px;
+    font-family: "Alice";
+    grid-column: 2;
+    grid-row: 4;
+    border-radius: 5px;
+  }
+  .contacto .contacto-formulario_mensaje {
+    width: 600px;
+    height: 306px;
+    font-family: "Alice";
+    grid-column: 3;
+    border-radius: 5px;
+  }
+  .contacto .contacto-formulario_cont-boton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  .contacto .contacto-formulario_cont-boton .contacto-formulario_boton-enviar {
+    margin-top: 50px;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #eb9782;
+    font-size: 1.2rem;
+  }
+}
+/*Nosotros*/
+@media (max-width: 768px) {
+  .seccion-nosotros {
+    width: 768px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-imagen .seccion-nosotros_imagen {
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-informacion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-informacion .seccion-nosotros_titulo {
+    font-size: 2.5rem;
+    font-family: "Alice";
+    text-decoration: underline;
+    text-align: center;
+  }
+  .seccion-nosotros .seccion-nosotros_cont-informacion .seccion-nosotros_parrafo {
+    font-size: 1.3rem;
+    font-family: "Alice";
+    text-align: center;
+  }
+  .seccion-equipo {
+    display: none;
   }
 }
 
