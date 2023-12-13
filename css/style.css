@@ -72,13 +72,13 @@ header nav div div ul li .titulo-link {
 
 footer {
   width: 100%;
-  height: 200px;
+  height: 12.5rem;
   display: flex;
   justify-content: space-around;
   background-color: #eb9782;
 }
 footer .cont-footer_barra-nav {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Alice";
   display: flex;
   flex-direction: column;
@@ -98,7 +98,7 @@ footer .cont-footer_sucursal-direccion .cont-footer_sucursal {
 }
 footer .cont-footer_sucursal-direccion .cont-footer_direccion {
   font-family: "Alice";
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 footer .cont-footer_contacto {
   display: flex;
@@ -108,7 +108,7 @@ footer .cont-footer_contacto {
   gap: 12.5px;
 }
 footer .cont-footer_contacto .cont-footer_titulo-contacto {
-  font-size: 1.438rem;
+  font-size: 1.5rem;
   font-family: "Alice";
 }
 footer .cont-footer_contacto .cont-footer_whatsapp-mail {
@@ -118,11 +118,11 @@ footer .cont-footer_contacto .cont-footer_whatsapp-mail {
   gap: 5px;
 }
 footer .cont-footer_contacto .cont-footer_whatsapp-mail .cont-footer_whatsapp {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "Alice";
 }
 footer .cont-footer_contacto .cont-footer_whatsapp-mail .cont-footer_mail {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "Alice";
 }
 footer .cont-footer_redes-sociales {
@@ -147,7 +147,8 @@ footer .cont-footer_redes-sociales .logo-facebook-footer {
   text-align: center;
   text-transform: uppercase;
   font-family: "Alice";
-  margin-top: 80px;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
 }
 
 .propiedades-recientes {
@@ -219,7 +220,7 @@ hr {
   align-items: center;
 }
 .seccion-nosotros .seccion-nosotros_cont-imagen .seccion-nosotros_imagen {
-  width: 400px;
+  width: 450px;
   height: 300px;
   border-radius: 15px;
 }
@@ -247,12 +248,11 @@ hr {
 
 /*Servicios*/
 .servicios_titulo {
-  padding-top: 5rem;
-  padding-bottom: 3.5rem;
-  font-size: 3.2rem;
+  font-size: 2.8rem;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
   text-transform: uppercase;
   text-align: center;
-  text-decoration: underline;
   font-family: "Alice";
 }
 
@@ -284,28 +284,30 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
 
 /*Propiedades*/
 .titulo-propiedades {
-  font-size: 3rem;
+  font-size: 2.8rem;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
   text-transform: uppercase;
   text-align: center;
-  text-decoration: underline;
   font-family: "Alice";
-  margin-top: 150px;
 }
 
 .propiedades {
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 50px;
 }
 .propiedades .propiedades_cont1 {
   width: 100%;
-  height: 500px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 100px;
 }
 .propiedades .propiedades_cont1 .propiedades_tarjetas-props {
+  width: 250px;
+  height: 340px;
   border: 1.5px;
   border-style: solid;
   border-radius: 12px;
@@ -313,12 +315,12 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   flex-direction: column;
 }
 .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_imagenes {
-  width: 425px;
+  width: 248px;
   height: 340px;
   border-radius: 12px;
 }
 .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_caracteristicas {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-family: "Alice";
   display: flex;
   flex-direction: column;
@@ -330,16 +332,16 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   margin-top: 15px;
 }
 .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-cama {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
 }
 .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-baño {
-  width: 38px;
-  height: 38px;
+  width: 30px;
+  height: 30px;
 }
 .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-garage {
-  width: 36px;
-  height: 36px;
+  width: 28px;
+  height: 28px;
 }
 .propiedades .propiedades_cont2 {
   width: 100%;
@@ -351,6 +353,8 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   gap: 100px;
 }
 .propiedades .propiedades_cont2 .propiedades_tarjetas-props {
+  width: 250px;
+  height: 340px;
   border: 1.5px;
   border-style: solid;
   border-radius: 12px;
@@ -358,12 +362,12 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   flex-direction: column;
 }
 .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_imagenes {
-  width: 425px;
+  width: 248px;
   height: 340px;
   border-radius: 12px;
 }
 .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_caracteristicas {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-family: "Alice";
   display: flex;
   flex-direction: column;
@@ -375,29 +379,30 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   margin-top: 15px;
 }
 .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-cama {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
 }
 .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-baño {
-  width: 38px;
-  height: 38px;
+  width: 30px;
+  height: 30px;
 }
 .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-garage {
-  width: 36px;
-  height: 36px;
+  width: 28px;
+  height: 28px;
 }
 
 /*Contacto*/
 .titulo-contacto {
-  font-size: 3rem;
+  font-size: 2.8rem;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
   font-family: "Alice";
   text-transform: uppercase;
   text-align: center;
-  text-decoration: underline;
-  margin-top: 150px;
 }
 
 .contacto {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -409,7 +414,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   gap: 20px;
 }
 .contacto .contacto-formulario_nombre {
-  width: 658px;
+  width: 600px;
   height: 66px;
   font-family: "Alice";
   grid-column: 2;
@@ -417,7 +422,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   border-radius: 5px;
 }
 .contacto .contacto-formulario_apellido {
-  width: 658px;
+  width: 600px;
   height: 66px;
   font-family: "Alice";
   grid-column: 2;
@@ -425,7 +430,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   border-radius: 5px;
 }
 .contacto .contacto-formulario_email {
-  width: 658px;
+  width: 600px;
   height: 66px;
   font-family: "Alice";
   grid-column: 2;
@@ -433,7 +438,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   border-radius: 5px;
 }
 .contacto .contacto-formulario_telefono {
-  width: 658px;
+  width: 600px;
   height: 66px;
   font-family: "Alice";
   grid-column: 2;
@@ -441,7 +446,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   border-radius: 5px;
 }
 .contacto .contacto-formulario_mensaje {
-  width: 672px;
+  width: 600px;
   height: 306px;
   font-family: "Alice";
   grid-column: 3;
@@ -453,41 +458,48 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   padding-bottom: 100px;
 }
 .contacto .contacto-formulario_cont-boton .contacto-formulario_boton-enviar {
-  margin-top: 50px;
+  margin-top: 4rem;
   align-items: center;
-  width: 70px;
-  height: 25px;
+  width: 75px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #eb9782;
 }
 
 /*Nosotros*/
 .page-seccion-nosotros {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 700px;
   justify-content: center;
   align-items: center;
   gap: 100px;
 }
+.page-seccion-nosotros .page-seccion-nosotros_cont-imagen {
+  width: 400px;
+  height: 400px;
+}
 .page-seccion-nosotros .page-seccion-nosotros_cont-imagen .page-seccion-nosotros_img {
-  width: 490px;
-  height: 490px;
-  border-radius: 54px;
+  width: 400px;
+  height: 400px;
+  border-radius: 30px;
 }
 .page-seccion-nosotros .page-seccion-nosotros_cont-informacion {
   display: flex;
   flex-direction: column;
   width: 600px;
-  gap: 35px;
+  gap: 30px;
 }
 .page-seccion-nosotros .page-seccion-nosotros_cont-informacion .page-seccion-nosotros_titulo {
-  font-size: 1.875rem;
+  font-size: 2.2rem;
   font-family: "Alice";
   text-decoration: underline;
   text-align: center;
 }
 .page-seccion-nosotros .page-seccion-nosotros_cont-informacion .page-seccion-nosotros_parrafo {
-  font-size: 1.625rem;
+  font-size: 1.5rem;
   font-family: "Alice";
+  text-align: center;
 }
 
 .seccion-equipo {

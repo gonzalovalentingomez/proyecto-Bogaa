@@ -1,13 +1,14 @@
 .titulo-contacto{
-    font-size: 3rem;
+    font-size: 2.8rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
     font-family: 'Alice';
     text-transform: uppercase;
     text-align: center;
-    text-decoration: underline;
-    margin-top: 150px;
 }
 
 .contacto{
+    width: 100%;
     display: flex;
     flex-direction: column;
     .contacto-formulario{
@@ -18,7 +19,7 @@
         gap: 20px;
     }
         .contacto-formulario_nombre{
-            width: 658px;
+            width: 600px;
             height: 66px;
             font-family: 'Alice';
             grid-column: 2;
@@ -26,7 +27,7 @@
             border-radius: 5px;
         }
         .contacto-formulario_apellido{
-            width: 658px;
+            width: 600px;
             height: 66px;
             font-family: 'Alice';
             grid-column: 2;
@@ -34,7 +35,7 @@
             border-radius: 5px;
         }
         .contacto-formulario_email{
-            width: 658px;
+            width: 600px;
             height: 66px;
             font-family: 'Alice';
             grid-column: 2;
@@ -42,7 +43,7 @@
             border-radius: 5px;
         }
         .contacto-formulario_telefono{
-            width: 658px;
+            width: 600px;
             height: 66px;
             font-family: 'Alice';
             grid-column: 2;
@@ -50,7 +51,7 @@
             border-radius: 5px;
         }
         .contacto-formulario_mensaje{
-            width: 672px;
+            width: 600px;
             height: 306px;
             font-family: 'Alice';
             grid-column: 3;
@@ -61,10 +62,12 @@
         justify-content: center;
         padding-bottom: 100px;
         .contacto-formulario_boton-enviar{
-            margin-top: 50px;
+            margin-top: 4rem;
             align-items: center;
-            width: 70px;
-            height: 25px;
+            width: 75px;
+            height: 40px;
+            border-radius: 8px;
+            background-color: #eb9782;
         }
     }
 }
