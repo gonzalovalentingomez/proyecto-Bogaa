@@ -1,11 +1,10 @@
 /*Prop-Recientes*/
 .titulo-recientes{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: underline;
-    font-family: 'Alice';
-    margin-top: 100px;
+    font-family: "Alice";
+    margin-top: 80px;
 }
 
 .propiedades-recientes{
@@ -14,17 +13,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 100px;
     .propiedades-recientes_props{
-        width: 300px;
-        height: 360px;
+        width: 250px;
+        height: 340px;
         border: 1.5px;
         border-style: solid;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         .propiedades-recientes_prop-img{
-            width: 297px;
+            width: 248px;
             height: 200px;
             border-radius: 10px;
         }

@@ -25,15 +25,15 @@ main {
 /*Layout*/
 header nav {
   padding: 0;
-  height: 4.5rem;
+  height: 3.2rem;
   width: 100%;
 }
 header nav .menu {
   flex-grow: 0;
 }
 header nav div a img {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 45px;
 }
 header nav div div {
   font-family: "Alice";
@@ -47,24 +47,27 @@ header nav div div ul {
 }
 header nav div div ul li .titulo-link {
   color: black;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 590;
 }
 
 .cont-principal {
   width: 100%;
-  height: 720px;
-  background: url(../img/imagen\ principal.png);
+  height: 550px;
+  background: url(../img/imagen_principal.png);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
 }
 .cont-principal .cont-principal_texto {
-  color: white;
   text-align: center;
   margin-top: 100px;
-  font-size: 1.5rem;
   font-style: italic;
+}
+.cont-principal .cont-principal_texto .texto {
+  font-size: 3rem;
+  color: white;
 }
 
 footer {
@@ -75,7 +78,7 @@ footer {
   background-color: #eb9782;
 }
 footer .cont-footer_barra-nav {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: "Alice";
   display: flex;
   flex-direction: column;
@@ -140,12 +143,11 @@ footer .cont-footer_redes-sociales .logo-facebook-footer {
 /*Index*/
 /*Prop-Recientes*/
 .titulo-recientes {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   text-align: center;
   text-transform: uppercase;
-  text-decoration: underline;
   font-family: "Alice";
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .propiedades-recientes {
@@ -154,11 +156,11 @@ footer .cont-footer_redes-sociales .logo-facebook-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 100px;
 }
 .propiedades-recientes .propiedades-recientes_props {
-  width: 300px;
-  height: 360px;
+  width: 250px;
+  height: 340px;
   border: 1.5px;
   border-style: solid;
   border-radius: 10px;
@@ -166,7 +168,7 @@ footer .cont-footer_redes-sociales .logo-facebook-footer {
   flex-direction: column;
 }
 .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_prop-img {
-  width: 297px;
+  width: 248px;
   height: 200px;
   border-radius: 10px;
 }
@@ -197,7 +199,7 @@ footer .cont-footer_redes-sociales .logo-facebook-footer {
 }
 
 hr {
-  height: 0.75px;
+  height: 2px;
   background-color: black;
   border-color: black;
   border-radius: 10px;
@@ -217,8 +219,8 @@ hr {
   align-items: center;
 }
 .seccion-nosotros .seccion-nosotros_cont-imagen .seccion-nosotros_imagen {
-  width: 450px;
-  height: 350px;
+  width: 400px;
+  height: 250px;
   border-radius: 15px;
 }
 .seccion-nosotros .seccion-nosotros_titulo-boton {

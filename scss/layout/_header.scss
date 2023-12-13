@@ -1,7 +1,7 @@
 header{
     nav{
         padding: 0;
-        height: 4.5rem;
+        height: 3.2rem;
         width: 100%;
         .menu{
             flex-grow: 0;
@@ -9,8 +9,8 @@ header{
         div{
             a{
                 img{
-                    width: 60px;
-                    height: 60px;
+                    width: 55px;
+                    height: 45px;
                 }
             }
             div{
@@ -24,7 +24,8 @@ header{
                     li{
                         .titulo-link{
                             color: black;
-                            font-size: 1.2rem;
+                            font-size: 0.9rem;
+                            font-weight: 590;
                         }
                     }
                 }
