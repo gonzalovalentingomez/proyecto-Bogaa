@@ -1,6 +1,6 @@
 @media (max-width: 768px){
     header{
-        width: 768px;
+        width: 100%;
         nav{
             padding: 0;
             height: 4rem;
@@ -22,12 +22,13 @@
                 .menu{
                     font-family: "Alice";
                     .menu-nav{
+                        margin-top: -5px;
                         gap: 2px;
                         font-family: "Alice";
                         font-style: none;
                         text-align: center;
                         background-color: white;
-                        width: 768px; 
+                        width: 100%;
                         li{
                             .titulo-link{
                                 color: black;

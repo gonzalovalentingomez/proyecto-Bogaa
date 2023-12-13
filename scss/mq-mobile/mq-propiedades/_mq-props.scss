@@ -1,15 +1,15 @@
 @media (max-width: 768px){
     .titulo-propiedades{
-        padding-bottom: 3rem;
-        font-size: 3rem;
+        font-size: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
         text-transform: uppercase;
         text-align: center;
-        text-decoration: underline;
         font-family: 'Alice';
     }
     
     .propiedades{
-        width: 768px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;

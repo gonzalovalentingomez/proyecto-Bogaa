@@ -1,16 +1,15 @@
 @media (max-width: 768px){
     .servicios_titulo{
-        padding-top: 5rem;
-        padding-bottom: 3.5rem;
-        font-size: 3rem;
+        font-size: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
         text-transform: uppercase;
         text-align: center;
-        text-decoration: underline;
         font-family: 'Alice';
     }
     
     section{
-        width: 768px;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -25,7 +24,7 @@
                 font-size: 1.5rem;
                 text-align: center;
                 font-family: 'Alice';
-                font-weight: 500;
+                font-weight: 800;
             }
             .servicios_parrafos{
                 font-size: 1.1rem;

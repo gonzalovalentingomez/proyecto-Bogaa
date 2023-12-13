@@ -1,11 +1,11 @@
 @media (max-width: 768px){
     .titulo-recientes{
-        font-size: 3rem;
+        font-size: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
         text-align: center;
         text-transform: uppercase;
-        text-decoration: underline;
         font-family: 'Alice';
-        margin-top: 50px;
     }
     
     .propiedades-recientes{
@@ -16,6 +16,8 @@
         align-items: center;
         gap: 20px;
         .propiedades-recientes_props{
+            width: 250px;
+            height: 300px;
             border: 1.5px;
             border-style: solid;
             border-radius: 12px;
@@ -23,7 +25,7 @@
             flex-direction: column;
             justify-content: space-between;
             .propiedades-recientes_prop-img{
-                width: 298px;
+                width: 248px;
                 height: 150px;
                 border-radius: 10px;
             }

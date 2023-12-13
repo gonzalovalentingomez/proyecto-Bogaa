@@ -1,15 +1,15 @@
 @media (max-width: 1024px){
     .titulo-propiedades{
-        padding-bottom: 3rem;
-        font-size: 3rem;
+        font-size: 2.8rem;
+        margin-top: 5rem;
+        margin-bottom: 4rem;
         text-transform: uppercase;
         text-align: center;
-        text-decoration: underline;
         font-family: 'Alice';
     }
     
     .propiedades{
-        width: auto;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -21,13 +21,15 @@
             align-items: center;
             gap: 60px;
             .propiedades_tarjetas-props{
+                width: 250px;
+                height: 300px;
                 border: 1.5px;
                 border-style: solid;
                 border-radius: 12px;
                 display: flex;
                 flex-direction: column;
                 .propiedades_imagenes{
-                    width: 200px;
+                    width: 248px;
                     height: 150px;
                     border-radius: 10px;
                 }
@@ -65,13 +67,15 @@
             align-items: center;
             gap: 60px;
             .propiedades_tarjetas-props{
+                width: 250px;
+                height: 300px;
                 border: 1.5px;
                 border-style: solid;
                 border-radius: 12px;
                 display: flex;
                 flex-direction: column;
                 .propiedades_imagenes{
-                    width: 200px;
+                    width: 248px;
                     height: 150px;
                     border-radius: 10px;
                 }
