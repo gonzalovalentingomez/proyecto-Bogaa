@@ -53,7 +53,7 @@ header nav div div ul li .titulo-link {
 
 .cont-principal {
   width: 100%;
-  height: 550px;
+  height: 700px;
   background: url(../img/imagen_principal.png);
   background-size: cover;
   background-position: center;
@@ -220,7 +220,7 @@ hr {
 }
 .seccion-nosotros .seccion-nosotros_cont-imagen .seccion-nosotros_imagen {
   width: 400px;
-  height: 250px;
+  height: 300px;
   border-radius: 15px;
 }
 .seccion-nosotros .seccion-nosotros_titulo-boton {
@@ -460,7 +460,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
 }
 
 /*Nosotros*/
-.seccion-nosotros {
+.page-seccion-nosotros {
   display: flex;
   width: 100vw;
   height: 700px;
@@ -468,24 +468,24 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   align-items: center;
   gap: 100px;
 }
-.seccion-nosotros .seccion-nosotros_cont-imagen .seccion-nosotros_imagen {
+.page-seccion-nosotros .page-seccion-nosotros_cont-imagen .page-seccion-nosotros_img {
   width: 490px;
   height: 490px;
   border-radius: 54px;
 }
-.seccion-nosotros .seccion-nosotros_cont-informacion {
+.page-seccion-nosotros .page-seccion-nosotros_cont-informacion {
   display: flex;
   flex-direction: column;
   width: 600px;
   gap: 35px;
 }
-.seccion-nosotros .seccion-nosotros_cont-informacion .seccion-nosotros_titulo {
+.page-seccion-nosotros .page-seccion-nosotros_cont-informacion .page-seccion-nosotros_titulo {
   font-size: 1.875rem;
   font-family: "Alice";
   text-decoration: underline;
   text-align: center;
 }
-.seccion-nosotros .seccion-nosotros_cont-informacion .seccion-nosotros_parrafo {
+.page-seccion-nosotros .page-seccion-nosotros_cont-informacion .page-seccion-nosotros_parrafo {
   font-size: 1.625rem;
   font-family: "Alice";
 }
