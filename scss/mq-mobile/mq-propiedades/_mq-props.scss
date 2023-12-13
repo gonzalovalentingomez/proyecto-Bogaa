@@ -14,20 +14,22 @@
         flex-direction: column;
         align-items: center;
         .propiedades_cont1{
-            width: 100%;
-            height: 300px;
+            height: auto;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             gap: 40px;
             .propiedades_tarjetas-props{
+                width: 200px;
+                height: 300px;
                 border: 1.5px;
                 border-style: solid;
                 border-radius: 12px;
                 display: flex;
                 flex-direction: column;
                 .propiedades_imagenes{
-                    width: 200px;
+                    width: 198px;
                     height: 150px;
                     border-radius: 10px;
                 }
@@ -59,19 +61,22 @@
         }
         .propiedades_cont2{
             width: 100%;
-            height: 500px;
+            height: auto;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             gap: 40px;
             .propiedades_tarjetas-props{
+                width: 200px;
+                height: 300px;
                 border: 1.5px;
                 border-style: solid;
                 border-radius: 12px;
                 display: flex;
                 flex-direction: column;
                 .propiedades_imagenes{
-                    width: 200px;
+                    width: 198px;
                     height: 150px;
                     border-radius: 10px;
                 }

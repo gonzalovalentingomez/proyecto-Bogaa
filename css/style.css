@@ -476,13 +476,9 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   align-items: center;
   gap: 100px;
 }
-.page-seccion-nosotros .page-seccion-nosotros_cont-imagen {
-  width: 400px;
-  height: 400px;
-}
 .page-seccion-nosotros .page-seccion-nosotros_cont-imagen .page-seccion-nosotros_img {
-  width: 400px;
-  height: 400px;
+  width: 330px;
+  height: 330px;
   border-radius: 30px;
 }
 .page-seccion-nosotros .page-seccion-nosotros_cont-informacion {
@@ -1173,10 +1169,13 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     justify-content: center;
   }
   .cont-principal .cont-principal_texto {
-    color: white;
     text-align: center;
     margin-top: 100px;
     font-style: italic;
+  }
+  .cont-principal .cont-principal_texto .texto {
+    font-size: 2rem;
+    color: white;
   }
 }
 /*Index*/
@@ -1210,10 +1209,11 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     gap: 20px;
   }
   .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nostros_titulo {
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     font-family: "Alice";
   }
   .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton {
@@ -1304,20 +1304,20 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     padding-bottom: 100px;
   }
   section .servicios_subtitulos-parrafos {
-    width: 720px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
   }
   section .servicios_subtitulos-parrafos .servicios_subtitulos {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
     font-family: "Alice";
     font-weight: 800;
   }
   section .servicios_subtitulos-parrafos .servicios_parrafos {
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;
     font-family: "Alice";
   }
@@ -1339,14 +1339,16 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     align-items: center;
   }
   .propiedades .propiedades_cont1 {
-    width: 100%;
-    height: 300px;
+    height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
   }
   .propiedades .propiedades_cont1 .propiedades_tarjetas-props {
+    width: 200px;
+    height: 300px;
     border: 1.5px;
     border-style: solid;
     border-radius: 12px;
@@ -1354,7 +1356,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     flex-direction: column;
   }
   .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_imagenes {
-    width: 200px;
+    width: 198px;
     height: 150px;
     border-radius: 10px;
   }
@@ -1384,13 +1386,16 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   }
   .propiedades .propiedades_cont2 {
     width: 100%;
-    height: 500px;
+    height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
   }
   .propiedades .propiedades_cont2 .propiedades_tarjetas-props {
+    width: 200px;
+    height: 300px;
     border: 1.5px;
     border-style: solid;
     border-radius: 12px;
@@ -1398,7 +1403,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     flex-direction: column;
   }
   .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_imagenes {
-    width: 200px;
+    width: 198px;
     height: 150px;
     border-radius: 10px;
   }
@@ -1451,7 +1456,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     gap: 20px;
   }
   .contacto .contacto-formulario_nombre {
-    width: 600px;
+    width: 330px;
     height: 66px;
     font-family: "Alice";
     grid-column: 2;
@@ -1459,7 +1464,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border-radius: 5px;
   }
   .contacto .contacto-formulario_apellido {
-    width: 600px;
+    width: 330px;
     height: 66px;
     font-family: "Alice";
     grid-column: 2;
@@ -1467,7 +1472,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border-radius: 5px;
   }
   .contacto .contacto-formulario_email {
-    width: 600px;
+    width: 330px;
     height: 66px;
     font-family: "Alice";
     grid-column: 2;
@@ -1475,7 +1480,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border-radius: 5px;
   }
   .contacto .contacto-formulario_telefono {
-    width: 600px;
+    width: 330px;
     height: 66px;
     font-family: "Alice";
     grid-column: 2;
@@ -1483,8 +1488,8 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border-radius: 5px;
   }
   .contacto .contacto-formulario_mensaje {
-    width: 600px;
-    height: 306px;
+    width: 330px;
+    height: 200px;
     font-family: "Alice";
     grid-column: 3;
     border-radius: 5px;
@@ -1517,15 +1522,15 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     padding-top: 50px;
   }
   .page-seccion-nosotros .page-seccion-nosotros_cont-imagen .page-seccion-nosotros_imagen {
-    width: 350px;
-    height: 350px;
+    width: 330px;
+    height: 330px;
     border-radius: 25px;
   }
   .page-seccion-nosotros .page-seccion-nosotros_cont-informacion {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 500px;
+    width: 300px;
     gap: 20px;
     padding-bottom: 50px;
   }
@@ -1536,7 +1541,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     text-align: center;
   }
   .page-seccion-nosotros .page-seccion-nosotros_cont-informacion .page-seccion-nosotros_parrafo {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: "Alice";
     text-align: center;
   }

@@ -15,19 +15,19 @@
         justify-content: center;
         padding-bottom: 100px;
         .servicios_subtitulos-parrafos{
-            width: 720px;
+            width: 300px;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 1rem;
             .servicios_subtitulos{
-                font-size: 1.5rem;
+                font-size: 1.3rem;
                 text-align: center;
                 font-family: 'Alice';
                 font-weight: 800;
             }
             .servicios_parrafos{
-                font-size: 1.1rem;
+                font-size: 1rem;
                 text-align: center;
                 font-family: 'Alice';
             }
