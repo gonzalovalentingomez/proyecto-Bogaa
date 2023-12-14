@@ -19,7 +19,9 @@ a {
 
 /*Main*/
 main {
-  background-color: rgb(241, 241, 241);
+  /*     background-color: rgb(241, 241, 241); */
+  background-color: #efedd9;
+  background-image: linear-gradient(180deg, #efedd9 0%, #efb19e 100%);
 }
 
 /*Layout*/
@@ -515,23 +517,72 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  gap: 120px;
+  gap: 60px;
+}
+.seccion-equipo .seccion-equipo_cont-fundador {
+  width: 300px;
+  height: 400px;
 }
 .seccion-equipo .seccion-equipo_cont-fundador .seccion-equipo_fundador {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   font-family: "Alice";
   text-decoration: underline;
+  text-align: center;
+}
+.seccion-equipo .seccion-equipo_cont-fundador .seccion-equipo_imagen {
+  width: 300px;
+  height: 350px;
+  border-radius: 5px;
+}
+.seccion-equipo .seccion-equipo_cont-fundador .seccion-equipo_nombre-fundador {
+  font-size: 1.5rem;
+  font-family: "Alice";
+  text-align: center;
+  margin-top: 10px;
+}
+.seccion-equipo .seccion-equipo_cont-corredor {
+  width: 300px;
+  height: 400px;
 }
 .seccion-equipo .seccion-equipo_cont-corredor .seccion-equipo_corredor {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   font-family: "Alice";
   text-decoration: underline;
+  text-align: center;
+}
+.seccion-equipo .seccion-equipo_cont-corredor .seccion-equipo_imagen {
+  width: 300px;
+  height: 350px;
+  border-radius: 5px;
+}
+.seccion-equipo .seccion-equipo_cont-corredor .seccion-equipo_nombre-corredor {
+  font-size: 1.5rem;
+  font-family: "Alice";
+  text-align: center;
+  margin-top: 10px;
+}
+.seccion-equipo .seccion-equipo_cont-fotografa {
+  width: 300px;
+  height: 400px;
 }
 .seccion-equipo .seccion-equipo_cont-fotografa .seccion-equipo_fotografa {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   font-family: "Alice";
   text-decoration: underline;
+  text-align: center;
 }
+.seccion-equipo .seccion-equipo_cont-fotografa .seccion-equipo_imagen {
+  width: 300px;
+  height: 350px;
+  border-radius: 5px;
+}
+.seccion-equipo .seccion-equipo_cont-fotografa .seccion-equipo_nombre-fotografa {
+  font-size: 1.5rem;
+  font-family: "Alice";
+  text-align: center;
+  margin-top: 10px;
+}
+
 /*Media Queries -Tablet-*/
 /*Base*/
 @media (max-width: 1024px) {
