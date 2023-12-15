@@ -1102,7 +1102,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     width: 100%;
   }
   header nav {
-    padding: 0;
+    padding: 0px;
     height: 4rem;
     width: 100%;
   }
@@ -1110,7 +1110,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     flex-grow: 0;
   }
   header nav .container-fluid {
-    padding: 0;
+    padding: 0px;
   }
   header nav .container-fluid a img {
     width: 55px;
