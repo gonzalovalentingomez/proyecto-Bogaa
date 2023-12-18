@@ -11,6 +11,7 @@
             width: 450px;
             height: 300px;
             border-radius: 15px;
+            box-shadow: 0.4rem 0.4rem 0.8rem;
         }
     }
     .seccion-nosotros_titulo-boton{
@@ -26,10 +27,12 @@
             display: flex;
             justify-content: center;
             .seccion-nosotros_boton-sumate{
-                border-radius: 3px;
                 font-family: 'Alice';
-                width: 80px;
-                height: 30px;
+                width: 95px;
+                height: 40px;
+                background-color: #eb9782;
+                border-radius: 7px;
+                box-shadow: inset -1.5px -1.5px 3px 0 #111;
                 background-color: #eb9782;
             }
         }

@@ -167,6 +167,7 @@ footer .cont-footer_redes-sociales .logo-facebook-footer {
   border: 1.5px;
   border-style: solid;
   border-radius: 10px;
+  box-shadow: 0.6rem 0.6rem 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -225,6 +226,7 @@ hr {
   width: 450px;
   height: 300px;
   border-radius: 15px;
+  box-shadow: 0.4rem 0.4rem 0.8rem;
 }
 .seccion-nosotros .seccion-nosotros_titulo-boton {
   display: flex;
@@ -241,10 +243,12 @@ hr {
   justify-content: center;
 }
 .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton .seccion-nosotros_boton-sumate {
-  border-radius: 3px;
   font-family: "Alice";
-  width: 80px;
-  height: 30px;
+  width: 95px;
+  height: 40px;
+  background-color: #eb9782;
+  border-radius: 7px;
+  box-shadow: inset -1.5px -1.5px 3px 0 #111;
   background-color: #eb9782;
 }
 
@@ -314,6 +318,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   border: 1.5px;
   border-style: solid;
   border-radius: 12px;
+  box-shadow: 0.6rem 0.6rem 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -361,6 +366,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   border: 1.5px;
   border-style: solid;
   border-radius: 12px;
+  box-shadow: 0.6rem 0.6rem 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -417,7 +423,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   gap: 20px;
 }
 .contacto .contacto-formulario_nombre {
-  width: 500px;
+  width: 450px;
   height: 66px;
   font-family: "Alice";
   grid-column: 2;
@@ -425,7 +431,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   border-radius: 5px;
 }
 .contacto .contacto-formulario_apellido {
-  width: 500px;
+  width: 450px;
   height: 66px;
   font-family: "Alice";
   grid-column: 2;
@@ -433,7 +439,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   border-radius: 5px;
 }
 .contacto .contacto-formulario_email {
-  width: 500px;
+  width: 450px;
   height: 66px;
   font-family: "Alice";
   grid-column: 2;
@@ -441,7 +447,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   border-radius: 5px;
 }
 .contacto .contacto-formulario_telefono {
-  width: 500px;
+  width: 450px;
   height: 66px;
   font-family: "Alice";
   grid-column: 2;
@@ -449,7 +455,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   border-radius: 5px;
 }
 .contacto .contacto-formulario_mensaje {
-  width: 500px;
+  width: 450px;
   height: 306px;
   font-family: "Alice";
   grid-column: 3;
@@ -463,17 +469,18 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
 .contacto .contacto-formulario_cont-boton .contacto-formulario_boton-enviar {
   margin-top: 4rem;
   align-items: center;
-  width: 75px;
-  height: 40px;
-  border-radius: 8px;
+  width: 90px;
+  height: 45px;
+  border-radius: 7px;
+  box-shadow: inset -1.5px -1.5px 3px 0 #111;
   background-color: #eb9782;
 }
 
 /*Nosotros*/
 .page-seccion-nosotros {
-  display: flex;
   width: 100%;
   height: 700px;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 100px;
@@ -482,6 +489,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   width: 330px;
   height: 330px;
   border-radius: 30px;
+  box-shadow: 0.4rem 0.4rem 0.7rem;
 }
 .page-seccion-nosotros .page-seccion-nosotros_cont-informacion {
   display: flex;
@@ -533,6 +541,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   width: 300px;
   height: 350px;
   border-radius: 5px;
+  box-shadow: 0.4rem 0.4rem 0.7rem;
 }
 .seccion-equipo .seccion-equipo_cont-fundador .seccion-equipo_nombre-fundador {
   font-size: 1.5rem;
@@ -554,6 +563,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   width: 300px;
   height: 350px;
   border-radius: 5px;
+  box-shadow: 0.4rem 0.4rem 0.7rem;
 }
 .seccion-equipo .seccion-equipo_cont-corredor .seccion-equipo_nombre-corredor {
   font-size: 1.5rem;
@@ -575,6 +585,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   width: 300px;
   height: 350px;
   border-radius: 5px;
+  box-shadow: 0.4rem 0.4rem 0.7rem;
 }
 .seccion-equipo .seccion-equipo_cont-fotografa .seccion-equipo_nombre-fotografa {
   font-size: 1.5rem;
@@ -726,7 +737,6 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: underline;
     font-family: "Alice";
     margin-top: 50px;
   }
@@ -735,7 +745,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     height: auto;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 50px;
   }
   .propiedades-recientes .propiedades-recientes_props {
@@ -744,6 +754,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border: 1.5px;
     border-style: solid;
     border-radius: 12px;
+    box-shadow: 0.6rem 0.6rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -820,10 +831,11 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     justify-content: center;
   }
   .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton .seccion-nosotros_boton-sumate {
-    border-radius: 15px;
     font-family: "Alice";
-    width: 100px;
+    width: 95px;
     height: 40px;
+    border-radius: 7px;
+    box-shadow: inset -1.5px -1.5px 3px 0 #111;
     background-color: #eb9782;
   }
 }
@@ -892,6 +904,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border: 1.5px;
     border-style: solid;
     border-radius: 12px;
+    box-shadow: 0.6rem 0.6rem 1rem;
     display: flex;
     flex-direction: column;
   }
@@ -938,6 +951,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border: 1.5px;
     border-style: solid;
     border-radius: 12px;
+    box-shadow: 0.6rem 0.6rem 1rem;
     display: flex;
     flex-direction: column;
   }
@@ -1041,11 +1055,11 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   .contacto .contacto-formulario_cont-boton .contacto-formulario_boton-enviar {
     margin-top: 50px;
     align-items: center;
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
+    width: 95px;
+    height: 40px;
+    border-radius: 7px;
+    box-shadow: inset -1.5px -1.5px 3px 0 #111;
     background-color: #eb9782;
-    font-size: 1.2rem;
   }
 }
 /*Nosotros*/
@@ -1274,8 +1288,10 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton .seccion-nosotros_boton-sumate {
     border-radius: 15px;
     font-family: "Alice";
-    width: 100px;
-    height: 40px;
+    width: 90px;
+    height: 45px;
+    border-radius: 7px;
+    box-shadow: inset -1.5px -1.5px 3px 0 #111;
     background-color: #eb9782;
   }
 }
@@ -1403,6 +1419,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border: 1.5px;
     border-style: solid;
     border-radius: 12px;
+    box-shadow: 0.4rem 0.4rem 0.7rem;
     display: flex;
     flex-direction: column;
   }
@@ -1507,7 +1524,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     gap: 20px;
   }
   .contacto .contacto-formulario_nombre {
-    width: 330px;
+    width: 300px;
     height: 66px;
     font-family: "Alice";
     grid-column: 2;
@@ -1515,7 +1532,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border-radius: 5px;
   }
   .contacto .contacto-formulario_apellido {
-    width: 330px;
+    width: 300px;
     height: 66px;
     font-family: "Alice";
     grid-column: 2;
@@ -1523,7 +1540,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border-radius: 5px;
   }
   .contacto .contacto-formulario_email {
-    width: 330px;
+    width: 300px;
     height: 66px;
     font-family: "Alice";
     grid-column: 2;
@@ -1531,7 +1548,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border-radius: 5px;
   }
   .contacto .contacto-formulario_telefono {
-    width: 330px;
+    width: 300px;
     height: 66px;
     font-family: "Alice";
     grid-column: 2;
@@ -1539,7 +1556,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     border-radius: 5px;
   }
   .contacto .contacto-formulario_mensaje {
-    width: 330px;
+    width: 300px;
     height: 200px;
     font-family: "Alice";
     grid-column: 3;
@@ -1553,9 +1570,10 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   .contacto .contacto-formulario_cont-boton .contacto-formulario_boton-enviar {
     margin-top: 50px;
     align-items: center;
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
+    width: 90px;
+    height: 45px;
+    border-radius: 7px;
+    box-shadow: inset -1.5px -1.5px 3px 0 #111;
     background-color: #eb9782;
     font-size: 1.2rem;
   }
