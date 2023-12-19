@@ -70,6 +70,7 @@ header nav div div ul li .titulo-link {
   font-size: 3.6rem;
   color: white;
   font-family: "Dancing Script";
+  opacity: 0.6;
 }
 
 footer {
@@ -170,10 +171,11 @@ footer .cont-footer_redes-sociales .logo-facebook-footer {
   box-shadow: 0.6rem 0.6rem 1rem;
   display: flex;
   flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.47);
 }
 .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_prop-img {
   width: 248px;
-  height: 200px;
+  height: 186px;
   border-radius: 10px;
 }
 .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_caract-recientes {
@@ -321,6 +323,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   box-shadow: 0.6rem 0.6rem 1rem;
   display: flex;
   flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.47);
 }
 .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_imagenes {
   width: 248px;
@@ -369,6 +372,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   box-shadow: 0.6rem 0.6rem 1rem;
   display: flex;
   flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.47);
 }
 .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_imagenes {
   width: 248px;
@@ -659,6 +663,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     margin-top: 100px;
     font-size: 3.2rem;
     font-family: "Dancing Script";
+    opacity: 0.6;
   }
 }
 @media (max-width: 1024px) {
@@ -1245,6 +1250,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     font-size: 2rem;
     color: white;
     font-family: "Dancing Script";
+    opacity: 0.6;
   }
 }
 /*Index*/
