@@ -2,35 +2,29 @@
     .seccion-nosotros{
         width: 100%;
         height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex(row, center, center);
         .seccion-nosotros_cont-imagen{
-            display: flex;
-            align-items: center;
+            @include flex(row, none, center);
             .seccion-nosotros_imagen{
                 display: none;
             }
         }
         .seccion-nosotros_titulo-boton{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex(column, center, none);
             gap: 20px;
             .seccion-nostros_titulo{
                 font-size: 2.1rem;
                 font-family: 'Alice';
             }
             .seccion-nosotros_boton{
-                display: flex;
-                justify-content: center;
+                @include flex(row, center, none);
                 .seccion-nosotros_boton-sumate{
                     font-family: 'Alice';
                     width: 95px;
                     height: 40px;
                     border-radius: 7px;
                     box-shadow: inset -1.5px -1.5px 3px 0 #111;
-                    background-color: #eb9782;
+                    background-color: $color-primario;
                 }
             }
         }

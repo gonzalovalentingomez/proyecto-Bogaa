@@ -10,15 +10,11 @@
 section{
     width: 100%;
     height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex(row, center, center);
     padding-bottom: 75px;
     .servicios_subtitulos-parrafos{
         width: 720px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex(column, none, center);
         gap: 1rem;
         .servicios_subtitulos{
             font-size: 1.5rem;

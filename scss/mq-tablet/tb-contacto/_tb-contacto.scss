@@ -10,14 +10,10 @@
     
     .contacto{
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex(column, none, center);
         .contacto-formulario{
             margin-top: 40px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include flex(column, none, center);
             gap: 20px;
         }
             .contacto-formulario_nombre{
@@ -70,7 +66,7 @@
                 height: 40px;
                 border-radius: 7px;
                 box-shadow: inset -1.5px -1.5px 3px 0 #111;
-                background-color: #eb9782;
+                background-color: $color-primario;
             }
         }
     }

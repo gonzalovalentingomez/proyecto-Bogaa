@@ -2,9 +2,7 @@
     .seccion-nosotros{
         width: 100%;
         height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex(row, center, center);
         .seccion-nosotros_cont-imagen{
             display: flex;
             align-items: center;
@@ -13,10 +11,7 @@
             }
         }
         .seccion-nosotros_titulo-boton{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
+            @include flex(column, center, center);
             gap: 20px;
             .seccion-nostros_titulo{
                 font-size: 1.5rem;
@@ -32,7 +27,7 @@
                     height: 45px;
                     border-radius: 7px;
                     box-shadow: inset -1.5px -1.5px 3px 0 #111;
-                    background-color: #eb9782;
+                    background-color: $color-primario;
                 }
             }
         }

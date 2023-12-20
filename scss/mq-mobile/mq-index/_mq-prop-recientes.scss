@@ -11,9 +11,7 @@
     .propiedades-recientes{
         width: 100%;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex(column, none, center);
         gap: 20px;
         .propiedades-recientes_props{
             width: 250px;
@@ -21,9 +19,7 @@
             border: 1.5px;
             border-style: solid;
             border-radius: 12px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            @include flex(column, space-between, none);
             .propiedades-recientes_prop-img{
                 width: 248px;
                 height: 150px;
@@ -32,9 +28,7 @@
             .propiedades-recientes_caract-recientes{
                 font-size: 1rem;
                 font-family: 'Alice';
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                @include flex(column, none, center);
             }
             .propiedades-recientes_ambientes-recientes{
                 display: flex;

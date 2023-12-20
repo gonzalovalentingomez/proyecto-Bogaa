@@ -10,15 +10,10 @@
     
     .propiedades{
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex(column, none, center);
         .propiedades_cont1{
             height: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex(column, center, center);
             gap: 40px;
             .propiedades_tarjetas-props{
                 width: 200px;
@@ -37,9 +32,7 @@
                 .propiedades_caracteristicas{
                     font-size: 1rem;
                     font-family: 'Alice';
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
+                    @include flex(column, none, center);
                 }
                 .propiedades_ambientes{
                     display: flex;
@@ -63,10 +56,7 @@
         .propiedades_cont2{
             width: 100%;
             height: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex(column, center, center);
             gap: 40px;
             .propiedades_tarjetas-props{
                 width: 200px;
@@ -84,9 +74,7 @@
                 .propiedades_caracteristicas{
                     font-size: 1rem;
                     font-family: 'Alice';
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
+                    @include flex(column, none, center);
                 }
                 .propiedades_ambientes{
                     display: flex;

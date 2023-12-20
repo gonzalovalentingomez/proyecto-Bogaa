@@ -2,20 +2,15 @@
     footer{
         width: 100%;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        background-color: #eb9782;
+        @include flex(column, space-around, none);
+        background-color: $color-primario;
         gap: 20px;
         .cont-footer_barra-nav{
             display: none;
         }
         .cont-footer_sucursal-direccion{
             padding-top: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            @include flex(column, center, center);
             gap: 12.5px;
             .cont-footer_sucursal{
                 font-size: 1.5rem;
@@ -28,10 +23,7 @@
             }
         }
         .cont-footer_contacto{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            @include flex(column, center, center);
             gap: 12.5px;
             .cont-footer_titulo-contacto{
                 font-size: 1.438rem;
@@ -39,9 +31,7 @@
                 font-weight: 1000;
             }
             .cont-footer_whatsapp-mail{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                @include flex(column, none, center);
                 gap: 5px;
                 .cont-footer_whatsapp{
                     font-size: 1.2rem;
@@ -55,10 +45,7 @@
         }
         .cont-footer_redes-sociales{
             padding-bottom: 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
+            @include flex(column, space-evenly, center);
             gap: 12.5px;
             .logo-instagram-footer{
                 width: 39px;    

@@ -10,8 +10,7 @@
     .propiedades-recientes{
         width: 100%;
         height: auto;
-        display: flex;
-        align-items: center;
+        @include flex(row, none, center);
         gap: 30px;
         margin-top: 50px;
         .propiedades-recientes_props{
@@ -21,9 +20,7 @@
             border-style: solid;
             border-radius: 12px;
             box-shadow: 0.6rem 0.6rem 1rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            @include flex(column, space-between, none);
             .propiedades-recientes_prop-img{
                 width: 248px;
                 height: 150px;
@@ -32,9 +29,7 @@
             .propiedades-recientes_caract-recientes{
                 font-size: 1rem;
                 font-family: 'Alice';
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                @include flex(column, none, center);
             }
             .propiedades-recientes_ambientes-recientes{
                 display: flex;

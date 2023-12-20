@@ -158,6 +158,7 @@ footer .cont-footer_redes-sociales .logo-facebook-footer {
   width: 100%;
   height: 500px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 100px;
@@ -184,6 +185,7 @@ footer .cont-footer_redes-sociales .logo-facebook-footer {
   font-family: "Alice";
   display: flex;
   flex-direction: column;
+  justify-content: none;
   align-items: center;
 }
 .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes {
@@ -234,6 +236,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: none;
   gap: 20px;
 }
 .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nostros_titulo {
@@ -242,13 +245,14 @@ hr {
 }
 .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: none;
 }
 .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton .seccion-nosotros_boton-sumate {
   font-family: "Alice";
-  width: 95px;
-  height: 40px;
-  background-color: #eb9782;
+  width: 90px;
+  height: 45px;
   border-radius: 7px;
   box-shadow: inset -1.5px -1.5px 3px 0 #111;
   background-color: #eb9782;
@@ -268,14 +272,16 @@ section {
   width: 100%;
   height: auto;
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   padding-bottom: 75px;
 }
 section .servicios_subtitulos-parrafos {
   width: 720px;
   display: flex;
   flex-direction: column;
+  justify-content: none;
   align-items: center;
   gap: 1rem;
 }
@@ -310,6 +316,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   width: 100%;
   height: 300px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 100px;
@@ -323,6 +330,8 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   box-shadow: 0.6rem 0.6rem 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: none;
+  align-items: none;
   background-color: rgba(255, 255, 255, 0.47);
 }
 .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_imagenes {
@@ -335,11 +344,14 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   font-family: "Alice";
   display: flex;
   flex-direction: column;
+  justify-content: none;
   align-items: center;
 }
 .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
+  align-items: none;
   margin-top: 15px;
 }
 .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes .propiedades_iconos-cama {
@@ -359,6 +371,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   height: 500px;
   padding-bottom: 75px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 100px;
@@ -384,6 +397,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   font-family: "Alice";
   display: flex;
   flex-direction: column;
+  justify-content: none;
   align-items: center;
 }
 .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes {
@@ -485,6 +499,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   width: 100%;
   height: 700px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 100px;
@@ -673,6 +688,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: none;
     background-color: #eb9782;
     gap: 20px;
   }
@@ -683,8 +699,8 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 12.5px;
   }
   footer .cont-footer_sucursal-direccion .cont-footer_sucursal {
@@ -699,8 +715,8 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   footer .cont-footer_contacto {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 12.5px;
   }
   footer .cont-footer_contacto .cont-footer_titulo-contacto {
@@ -711,6 +727,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   footer .cont-footer_contacto .cont-footer_whatsapp-mail {
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
     gap: 5px;
   }
@@ -752,6 +769,8 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     width: 100%;
     height: auto;
     display: flex;
+    flex-direction: row;
+    justify-content: none;
     align-items: center;
     gap: 30px;
     margin-top: 50px;
@@ -766,6 +785,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: none;
   }
   .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_prop-img {
     width: 248px;
@@ -777,6 +797,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     font-family: "Alice";
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
   }
   .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes {
@@ -814,11 +835,14 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     width: 100%;
     height: 200px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
   .seccion-nosotros .seccion-nosotros_cont-imagen {
     display: flex;
+    flex-direction: row;
+    justify-content: none;
     align-items: center;
   }
   .seccion-nosotros .seccion-nosotros_cont-imagen .seccion-nosotros_imagen {
@@ -828,6 +852,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: none;
     gap: 20px;
   }
   .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nostros_titulo {
@@ -836,7 +861,9 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   }
   .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: none;
   }
   .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nosotros_boton .seccion-nosotros_boton-sumate {
     font-family: "Alice";
@@ -859,14 +886,16 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   section {
     width: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding-bottom: 100px;
   }
   section .servicios_subtitulos-parrafos {
     width: 720px;
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
     gap: 1rem;
   }
@@ -896,12 +925,14 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
   }
   .propiedades .propiedades_cont1 {
     width: 100%;
     height: 300px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 60px;
@@ -926,6 +957,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     font-family: "Alice";
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
   }
   .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes {
@@ -1007,12 +1039,14 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
   }
   .contacto .contacto-formulario {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
     gap: 20px;
   }
@@ -1077,8 +1111,8 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     padding-top: 50px;
   }
@@ -1165,6 +1199,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: none;
     background-color: #eb9782;
     gap: 20px;
   }
@@ -1175,8 +1210,8 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 12.5px;
   }
   footer .cont-footer_sucursal-direccion .cont-footer_sucursal {
@@ -1191,8 +1226,8 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   footer .cont-footer_contacto {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 12.5px;
   }
   footer .cont-footer_contacto .cont-footer_titulo-contacto {
@@ -1203,6 +1238,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   footer .cont-footer_contacto .cont-footer_whatsapp-mail {
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
     gap: 5px;
   }
@@ -1270,6 +1306,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     width: 100%;
     height: 200px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
@@ -1284,7 +1321,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     gap: 20px;
   }
   .seccion-nosotros .seccion-nosotros_titulo-boton .seccion-nostros_titulo {
@@ -1319,6 +1356,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
     gap: 20px;
   }
@@ -1331,6 +1369,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: none;
   }
   .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_prop-img {
     width: 248px;
@@ -1342,6 +1381,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     font-family: "Alice";
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
   }
   .propiedades-recientes .propiedades-recientes_props .propiedades-recientes_ambientes-recientes {
@@ -1376,14 +1416,16 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
   section {
     width: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding-bottom: 100px;
   }
   section .servicios_subtitulos-parrafos {
     width: 300px;
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
     gap: 1rem;
   }
@@ -1413,6 +1455,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
   }
   .propiedades .propiedades_cont1 {
@@ -1443,6 +1486,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     font-family: "Alice";
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
   }
   .propiedades .propiedades_cont1 .propiedades_tarjetas-props .propiedades_ambientes {
@@ -1490,6 +1534,7 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     font-family: "Alice";
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
   }
   .propiedades .propiedades_cont2 .propiedades_tarjetas-props .propiedades_ambientes {
@@ -1524,12 +1569,14 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
   }
   .contacto .contacto-formulario {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: none;
     align-items: center;
     gap: 20px;
   }
@@ -1595,8 +1642,8 @@ section .servicios_subtitulos-parrafos .servicios_parrafos {
     height: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     padding-top: 50px;
   }

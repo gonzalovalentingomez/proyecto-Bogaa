@@ -2,10 +2,7 @@
     .page-seccion-nosotros{
         width: 100%;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        @include flex(column, center, center);
         gap: 50px;
         padding-top: 50px;
         .page-seccion-nosotros_cont-imagen{
